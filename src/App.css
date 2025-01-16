@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+body, html {
+  overflow-x: hidden;  /* Prevent horizontal scrolling */
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;  /* Ensures padding and borders do not cause overflow */
+}
+
+.container, .container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+.carousel-inner img {
+  min-height: 50vh;  /* 50% of the viewport height */
+  object-fit: cover;
+}
+
