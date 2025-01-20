@@ -1,6 +1,6 @@
 // pages/HomePage.jsx
 import "bootstrap/dist/css/bootstrap.min.css";
-import reactImg from "../assets/_.jpeg";
+import reactImg from "../assets/cpp.jpeg";
 import reactImg1 from "../assets/Log In.jpeg";
 import reactImg2 from "../assets/security.jpeg";
 import Carousel from "./Carousel";
